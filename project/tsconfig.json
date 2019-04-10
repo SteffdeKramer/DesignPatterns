@@ -3,9 +3,9 @@
       "target": "ES5",
       "removeComments": true,
       "preserveConstEnums": true,
-      "outFile": "./dist/main.js",
-      "sourceRoot": "./src/",
-      "rootDir": "./src/",
+      "outFile": "./dist/js/main.js",
+      "sourceRoot": "./dev/",
+      "rootDir": "./dev/",
       "sourceMap": true
     }
   }

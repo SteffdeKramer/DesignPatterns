@@ -1,0 +1,3 @@
+interface Tosti {
+    getName();
+}

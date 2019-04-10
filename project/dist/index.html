@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Design Patterns in Typescript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+</head>
+<body>
+<section class="section">
+    <div class="columns">
+        <div class="column">
+            <div class="card order-form">
+                <div class="card-content">
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">
+                                What kind of coffee do you want?
+                            </label>
+                            <div class="select">
+                                <select id="choosetosti">
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="label">
+                                Extras:
+                            </label>
+                            <div class="select">
+                                <select id="extra">
+                                    <option value="none">None</option>
+                                    <option value="sugar">With sugar</option>
+                                    <option value="milk">With milk</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button is-success place-order">Add to your order</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="column order">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title">
+                        Order:
+                    </p>
+                </header>
+                <div class="card-content content">
+                    <ol class="order-content">
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+<script src="js/main.js"></script>
+</html>
